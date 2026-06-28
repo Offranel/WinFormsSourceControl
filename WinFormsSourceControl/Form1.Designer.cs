@@ -30,9 +30,9 @@
         {
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            LengthTextBox = new TextBox();
+            widthTextBox = new TextBox();
+            calcAreaAndPerimeterButton = new Button();
             SuspendLayout();
             // 
             // label1
@@ -40,50 +40,50 @@
             label1.AutoSize = true;
             label1.Location = new Point(29, 46);
             label1.Name = "label1";
-            label1.Size = new Size(97, 41);
+            label1.Size = new Size(110, 41);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "Length";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(29, 161);
             label2.Name = "label2";
-            label2.Size = new Size(97, 41);
+            label2.Size = new Size(98, 41);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "Width";
             // 
-            // textBox1
+            // LengthTextBox
             // 
-            textBox1.Location = new Point(152, 46);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(250, 47);
-            textBox1.TabIndex = 2;
+            LengthTextBox.Location = new Point(152, 46);
+            LengthTextBox.Name = "LengthTextBox";
+            LengthTextBox.Size = new Size(250, 47);
+            LengthTextBox.TabIndex = 2;
             // 
-            // textBox2
+            // widthTextBox
             // 
-            textBox2.Location = new Point(152, 158);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(250, 47);
-            textBox2.TabIndex = 3;
+            widthTextBox.Location = new Point(152, 158);
+            widthTextBox.Name = "widthTextBox";
+            widthTextBox.Size = new Size(250, 47);
+            widthTextBox.TabIndex = 3;
             // 
-            // button1
+            // calcAreaAndPerimeterButton
             // 
-            button1.Location = new Point(186, 283);
-            button1.Name = "button1";
-            button1.Size = new Size(188, 58);
-            button1.TabIndex = 4;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            calcAreaAndPerimeterButton.Location = new Point(184, 274);
+            calcAreaAndPerimeterButton.Name = "calcAreaAndPerimeterButton";
+            calcAreaAndPerimeterButton.Size = new Size(297, 128);
+            calcAreaAndPerimeterButton.TabIndex = 4;
+            calcAreaAndPerimeterButton.Text = "Calculate and Perimeter";
+            calcAreaAndPerimeterButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(calcAreaAndPerimeterButton);
+            Controls.Add(widthTextBox);
+            Controls.Add(LengthTextBox);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
@@ -96,8 +96,8 @@
 
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private TextBox LengthTextBox;
+        private TextBox widthTextBox;
+        private Button calcAreaAndPerimeterButton;
     }
 }

@@ -11,5 +11,19 @@ namespace WinFormsSourceControl
         {
 
         }
+
+        private void calcAreaAndPerimeterButton_Click(object sender, EventArgs e)
+        {
+            int length = Convert.ToInt32(LengthTextBox.Text);
+            int width = Convert.ToInt32(widthTextBox.Text);
+
+            int area = length * width;
+            int perimeter = length * 2 + width * 2;
+
+            areaTextBox.Text = "Area is: " + area;
+            perimeterTextBox.Text = "Perimeter is: " + perimeter;
+
+
+        }
     }
 }

@@ -99,7 +99,7 @@
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1233, 698);
             Controls.Add(perimeterTextBox);
             Controls.Add(areaTextBox);
             Controls.Add(calcAreaAndPerimeterButton);

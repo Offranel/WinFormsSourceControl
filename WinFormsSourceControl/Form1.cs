@@ -34,7 +34,5 @@ private void CalcAreaAndPerimeterButton_Click(object sender, EventArgs e)
     areaTextBox.Text = "Area is: " + area;
     perimeterTextBox.Text = "Perimeter is: " + perimeter;
 
-
-
   }
 }
